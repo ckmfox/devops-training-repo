@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = Api(app)
 
 class Home(Resource):
-    def get(self):
+    de get(self):
         return {'version': '1.0'}
 
 class ConvertTemp(Resource):
